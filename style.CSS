@@ -1,0 +1,394 @@
+*{
+  margin: 0;
+  font-family: Arimo, Arial, Helvetica, "Lucida Grande", sans-serif;
+}
+
+.NavBar{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #000000;
+  position: fixed;
+  top: 0;
+  width:100%;
+  margin-bottom: 10px;
+  border-bottom: 1px solid#333;
+ 
+ 
+ 
+ 
+ 
+}
+
+/***************DESIGN THE BACKGROUND IMAGE IN BODY*******************/
+body{
+  background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.9),rgba(0,0,0,0.7) ),url(" https://image.tmdb.org/t/p/w1280/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg");
+background-size:cover;
+background-repeat: no-repeat;  
+
+}
+/************************DESIGN A FIRST PART OF OUR NAV BAR***************************************************/
+.DesignNavBar1{
+  list-style: none;
+  display: inline-flex;
+  padding: 20px;
+  
+}
+.DesignNavBar1 a{
+  text-decoration: none;
+  padding-left: 57px;
+color: white;
+font-size: 20px;
+}
+.DesignNavBar1 .DesignTorlockTorrents{
+  padding-right: 300px;
+  }
+  
+  /*************DESIGN A SEARCH BAR OF OUR NAV BAR***********/
+  .DesignNavBar2{
+    list-style: none;
+    display: inline-flex;
+    position: relative;
+    right: 100px;
+  }
+  .DesignNavBar2 a{
+    text-decoration: none;
+    padding-left: 49px;
+    }
+    form{
+      width: 250px;
+      height: 35px;
+      display: flex;
+      border-radius: 20px;
+      background-color:#1d1d1d;
+      border: 2px solid#333;
+    }
+    form input{
+      flex: 1;
+      outline: none;
+      border: none;
+      border-radius: 20px;
+      font-weight: bold;
+      color: #919191;
+      background-color: #1d1d1d;
+    }
+    
+  form .fa{
+    align-self: center;
+    padding:10px 10px;
+    color: #919191;
+  }
+
+  /**********DESIGN A SECOND PART OF OUR NAV BAR************/
+.DesignHomeItem a{
+  color:#919191;
+  font-size: 15px;
+  font-weight: bold;
+  padding-left: 15px;
+
+}
+
+.DesignHomeItem a:hover{
+  color: white;
+}
+
+.DesignBrowseMoviesItem a{
+  color: #3687e6;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+.DesignBrowserSeriesItem a{
+  color: #ff0000;
+  font-size: 15px;
+  font-weight: 700px;
+  font-weight: bold;
+
+}
+.DesignJoinUsItem a{
+  color: #fff200;
+  font-size: 15px;
+  font-weight: 700px;
+  font-weight: bold;
+}
+
+/**************** DESIGNING THE LOVE EMOJI ACCROSS THE JOIN ITEM **********************/
+img{
+  padding-left: 40%;
+  width: 16px;
+ 
+}
+/****************** DESIGNING FIRST SECTION HEADING(h1) AFTER NAV-BAR **********************/
+
+.designh1 {
+  text-align: center;
+  font-size: 290%;
+  margin: 3.5% 0 2.5% 0;
+  color: white;
+  padding-top: 60px;
+ 
+
+}
+/********************* DESIGNING THREE SECTIONS AFTER NAV-BAR *****************************/
+.btn8{
+  margin-top: 35px 0 20px 0;
+  text-align: center;
+
+}
+
+.btn8 .btn9 {
+  text-align: center;
+  padding: 15px 30px;
+  font-size: 17px;
+  border-radius: 4px;
+  font-weight: bold;
+  color: #3687e6;
+  border: 1px solid;
+  margin: 40px 0px 20px 0px;
+  background-color: transparent;
+}
+.btn8 .btn9:hover {
+  color: white;
+  background-color: #3687e6;
+}
+
+/************* DESIGNING HEADING SECTIONS (h3) AFTER NAV-BAR */
+.designh2 {
+  text-align: center;
+  margin: 1.6% 0;
+  color: white;
+}
+.designh2 .fa {
+  color: #3687e6;
+}
+
+/************ DESIGNING SEARCH BAR MOVIES ***************/
+
+.DesignSearchBarMovie {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.DesignSearchBarMovie input {
+  margin: 4.5% 30% 2% 32%;
+  padding: 1.2% 0 1.2% 15px;
+  border-radius: 6px;
+  color: #a2a2a2;
+  background-color: #282828;
+  box-shadow: 0px 0px 10px 0px #3687e6;
+  text-align: left;
+  font-size: 16px;
+}
+
+.DesignSearchBarMovie button{
+  margin: 0.2% 700px 1.5% 720px;
+  padding: 10px 0;
+  border-radius: 4px;
+  background-color: #3687e6;
+  border: none;
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+
+}
+/*********DESIGNING SEARCH BAR SERIES ****************/
+.DesignSearchBarSerie {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.DesignSearchBarSerie input {
+  margin: 1% 30% 2% 32%;
+  padding: 1.2% 0 1.2% 15px;
+  border-radius: 6px;
+  color: #a2a2a2;
+  background-color: #282828;
+  box-shadow: 0px 0px 10px 0px #3687e6;
+  text-align: left;
+  font-size: 16px;
+}
+
+.DesignSearchBarSerie button {
+  margin: 0.1% 700px 4.5% 720px;
+  padding: 10px 0;
+  border-radius: 4px;
+  background-color: #3687e6;
+  border: none;
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+
+
+}
+
+/************************** DESIGN THE hr TAG *******************/
+
+.DesignTagHr1{
+  margin: 0 12% 0 10%;
+}
+.DesignTagHr2{
+  margin: 0 12% 0 10%;
+}
+.DesignTagHr3{
+  margin: 0 10.3% 0 8.5%;
+ 
+
+}
+.DesignTagHr4{
+  margin: 0 8.5% 0 10% 
+}
+/**************DESIGN LOGO VERTICALLY*****************/
+.DesignLogo {
+  list-style: none;
+  position: fixed;
+  left: 94%;
+  top:35%;
+  
+  }
+
+  /***************** DESIGN SOCIAL MEDIA ICONS ******************/
+
+.DesignLogo .fa-envelope-square{
+  color:  #0a86f3;
+
+  border-radius: 400px;
+  background-size: 100% 100%; 
+}
+
+.DesignLogo .fa-pinterest-square{
+  color:  #cd1d1f;
+  
+ 
+}
+.DesignLogo .fa-reddit-square{
+  color:  #ff4500;
+}
+
+.DesignLogo .fa-twitter-square{
+  color:  #1DA1F2;
+  
+  
+}
+.DesignLogo .fa-whatsapp{
+  background-color:#0cb94b;
+  color: white;
+  border-radius:4px;
+  margin: 3.5px 0;
+
+  }
+  .DesignLogo .fa-plus-square{
+    color:  #0059ff;
+  }
+  
+  
+  .DesignLogo2 {
+    list-style: none;
+    
+   
+  }
+
+  .DesignLogo2 .fa{
+    list-style: none;
+  position: absolute;
+  left: 87%;
+  top:48%;
+  color: #b96b0c;
+  
+  }
+
+  /************* MEDIA QUERY- MOBILE VERSION OF OUR WEBSITE *************************/
+  @media (max-width:500px) {
+    
+*{
+  text-align:center;
+}
+  .btn8 {
+    margin-top: 15px 0 10px 0;
+    text-align: center;
+  }
+  .btn8 .btn9 {
+    text-align: center;
+    padding: 15px 30px;
+    margin: 20px 90px 10px ;
+  
+  }
+  .DesignTagHr1{
+    margin: 0 51.5% 0 3%;
+  }
+  .DesignTagHr2{
+    margin: 0 51.5% 0 3%;
+    
+  }
+  
+  .DesignTagHr3{
+    margin: 0 7% 0 0.01%;
+   
+  
+  }
+  .DesignTagHr3{
+    margin: 0 7% 0 0.01%;
+   
+  
+  }
+  .DesignTagHr4{
+    margin: 0 51.5% 0 3%;
+  }
+  
+    designh2 {
+      text-align: center;
+      margin: 1.6% 0.6%  1.6%  1.6%;
+      padding: 1% 0%  1%  1.6%;
+    
+    }
+    .designh2 .fa {
+      color: #3687e6;
+  
+  }
+  
+  }
+  
+
+
+
+  
+
+
+
+
+
+/*********************DESIGN FOOTER*******************/
+
+footer {
+  background-color: rgb(33, 30, 30);
+  padding:60px 40px;
+}
+.NavBarFooter{
+  text-align: center;
+  background-color: black;
+  border-top-color: 4px white;
+ }
+ 
+ .NavBarFooter ul{
+   display: inline-flex;
+   text-decoration: none;
+   padding:20px;
+   
+  }
+ 
+  
+ .NavBarFooter ul li a{
+   display: inline-flex;
+   text-decoration: none;
+   color:rgb(29, 171, 50);
+   font-weight: 6px;
+   padding: 0 4px;
+  }
+
+  .NavBarFooter ul li .designA1{
+    color: white;
+  }
+
+  .NavBarFooter ul li a:hover {
+    color:white;
+  }
+  
+ 
